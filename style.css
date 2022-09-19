@@ -1,0 +1,94 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./font/Amsterdam\ Personal\ Use.ttf);
+  }
+  body{
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    background-color: #FFF7F2;
+  }
+
+.title{
+    text-align: center;
+    margin: 0 auto;
+    background-image: url("./images/Amsterdam.png");
+    width: 720px;
+    background-size: cover;
+    height: 343px;
+}
+.title-titr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;  
+}
+.title-titr h2{
+    background-color: #FF872B;
+    padding: 7px 15px 0px 15px;
+    border-radius: 10px;
+    font-family: myFirstFont;
+}
+.title-titr h5{
+    max-width: 400px;
+    background-color: #FFCAA1;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: 'Cabin', sans-serif;
+}
+.activities{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFB378;
+
+}
+.activities-item{
+    max-width: 200px;
+    padding: 20px;
+}
+.activities-item img{
+    width: 100px;
+    border-radius: 50px;
+}
+.activities-item-title{
+    height: 50px;
+}
+.activities-item-text{
+    height: 100px;
+}
+.card-container{
+    width: 720px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px 0;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFE8D7;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    border-bottom: 4px solid #FF872B;
+
+
+    
+ }
+ .introduce{
+    padding-left: 10px;
+ }
+.introduce p{
+   width: 220px;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 10px;
+}
